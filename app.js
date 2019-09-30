@@ -20,19 +20,24 @@ app.use(express.static("public"));
 
 
 // get routes
+
 app.get("/", function(req, res) {
+  res.redirect("https://sites.google.com/view/coochieprogress/home");
+})
+
+app.get("/bus", function(req, res) {
   res.render("home", {}); 
 })
 
-app.get("/roadmap", function(req, res) {
+app.get("/bus/roadmap", function(req, res) {
   res.render("roadmap", {}); 
 })
 
-app.get("/volunteer", function(req, res) {
+app.get("/bus/volunteer", function(req, res) {
   res.render("volunteer", {}); 
 })
 
-app.get("/invest", function(req, res) {
+app.get("/bus/invest", function(req, res) {
   res.render("invest", {}); 
 })
 
