@@ -42,6 +42,6 @@ app.get("/bus/invest", function(req, res) {
 })
 
 // spin up server
-app.listen(3333, function() {
-  console.log("Server started on port 3333");
+app.listen(3000, function() {
+  console.log("Server started on port 3000");
 });
