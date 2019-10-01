@@ -26,19 +26,19 @@ app.get("/", function(req, res) {
 })
 
 app.get("/bus", function(req, res) {
-  res.render("home", {}); 
+  res.render("home", {});
 })
 
 app.get("/bus/roadmap", function(req, res) {
-  res.render("roadmap", {}); 
+  res.render("roadmap", {});
 })
 
 app.get("/bus/volunteer", function(req, res) {
-  res.render("volunteer", {}); 
+  res.render("volunteer", {});
 })
 
 app.get("/bus/invest", function(req, res) {
-  res.render("invest", {}); 
+  res.render("invest", {});
 })
 
 // spin up server
