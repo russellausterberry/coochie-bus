@@ -1,0 +1,36 @@
+/* grid
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2 rem;
+  grid-template-areas:
+    "header header"
+    "info rightbar"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: lightgreen;
+}
+.leftbar {
+  grid-area: leftbar;
+  background-color: gold;
+}
+.rightbar {
+  grid-area: rightbar;
+  background-color: gold;
+}
+.info {
+  grid-area: info;
+  background-color: skyblue;
+}
+.footer {
+  grid-area: footer;
+  background-color: lightsalmon;
+}
+
+.header, .info, .leftbar, .rightbar, .footer {
+  padding: 50px;
+} */
